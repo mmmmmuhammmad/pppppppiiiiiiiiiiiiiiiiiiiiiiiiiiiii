@@ -1,0 +1,370 @@
+@import 'fonts.css';
+ 
+ *{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box; 
+}
+
+body{
+    min-width: 320px;
+}
+
+header{
+    background: url(../img/img-1.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+}
+header nav{
+    max-width: 1114px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+header nav .logo{
+    font-size:24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Bold' ;
+}
+
+header nav ul {
+   display: flex; 
+   align-items: center;
+}
+
+header nav ul .number{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Regular' ;
+    margin-right: 50px;
+}
+
+
+header nav ul .botton{
+    font-size: 16px;
+    color: #fff;
+    padding: 18px 26px;
+    background: #68BF3B;
+    display: block;
+    border-radius: 50px;
+    font-family: 'Regular'; 
+    transition: 0.5s;
+}
+
+header nav ul .botton:hover{
+  background: #b91111;
+}
+
+
+
+header .text{
+    max-width: 1114px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+header .text h2{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Black';
+     text-transform: uppercase;
+}
+ 
+header .text h1{
+    font-size: 72px;
+    color: #fff;
+    font-family: 'Black';
+     text-transform: uppercase;
+     margin-top: 32px;
+}
+
+header .text p{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Regular' ; 
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+}
+
+header  .text a{
+    font-size: 16px;
+    color: #fff;
+    padding: 18px 26px;
+    background: linear-gradient(to top, #3e8701, #6ad017);
+    display: block;
+    border-radius: 50px;
+    font-family: 'Regular'; 
+    transition: 0.5s;    
+    margin-top: 50px;
+}  
+
+/*header end*/
+/**************************************** */
+/* main start */
+
+main  .main-block{
+    max-width: 1114px;
+    widows: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+main .main-block .main-text h2{
+    font-size: 36px;
+    color: #68BF3B;
+    text-transform: uppercase;
+    font-family: 'Bold';
+}
+
+
+main .main-block .main-text .text{
+   font-size: 18px;
+   color: #b91111;
+   font-family: 'Regular' ; 
+   line-height: 36px;
+   margin-top: 56px;
+}
+
+main .main-block .main-text .user-name{
+    font-size: 24px;
+    color: #b91111;
+    font-family: 'Bold'; 
+    display: flex;
+    align-items: center;
+}
+
+
+main .main-block .main-text .user-name img{
+    margin-left: 62px;
+}
+
+main .main-block img{
+    margin-right: 35px;
+}
+
+main{
+    padding-top: 82px;
+    padding-bottom: 67px;
+}
+
+/* main end */
+/* ****************************************** */
+/* section-pizza start */
+
+.section-pizza .section-menu{
+    max-width: 1114px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-pizza .section-menu h3{
+    font-size: 36px;
+    color: darksalmon;
+    text-transform: uppercase;
+    font-family: 'Bold' ;
+}
+
+.section-pizza .section-menu .menu-img{
+    position: relative;
+}
+
+.section-pizza .section-menu .menu-img .menu-img-text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background: #b91111;
+    font-family: 'Bold' ;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-pizza .section-menu .menu-text h4{
+    font-size: 30px;
+    color: #a6a6a6;
+    font-family: 'Bold' ;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+
+.section-pizza .section-menu .menu-text ul p{
+    font-size: 14px;
+    color: #a6a6a6;
+    font-family: 'Regular' ;
+    margin-bottom: 11px;
+    
+}
+
+.section-pizza .section-menu .menu-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+
+.section-pizza  .menu-text h2{
+       color: #a6a6a6;
+       font-size: 24px;
+       font-family: 'Regular' ;
+       height: 50px;
+}
+
+.section-pizza .menu-text p{
+    color: #a6a6a6;
+    font-size: 20px;
+    font-family: 'Regular' ;
+}
+
+
+.general-content-box{
+    display: flex;
+    align-items: stretch;
+    justify-content:space-between;
+    
+} 
+
+/* footer */
+
+footer {
+    background-image: url(../img/img-1.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+ 
+
+footer main {
+  max-width: 1114px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ footer main .logo{
+    font-size:24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Bold' ;
+}
+
+ footer main ul {
+    display: flex; 
+    align-items: center;
+ }
+ 
+ 
+ footer main ul .number{
+     font-size: 24px;
+     color: #fff;
+     font-family: 'Regular' ;
+     margin-right: 50px;
+ }
+ 
+ 
+footer main ul .botton{
+     font-size: 16px;
+     color: #fff;
+     padding: 18px 26px;
+     background: #68BF3B;
+     display: block;
+     border-radius: 50px;
+     font-family: 'Regular'; 
+     transition: 0.5s;
+ }
+ 
+ footer main ul .botton:hover{
+   background: #4d1c1c;
+ }
+ 
+
+/*media*/
+
+@media (max-width: 900px) {
+    .section-pizza .section-menu .menu-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 800px) {
+    main .main-block{
+        flex-direction: column;
+
+    }
+    main .main-block .main-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;  
+    }
+}
+
+@media (max-width: 700px) {
+    header nav{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 512px) {
+   header nav ul{
+       flex-direction: column;
+   }
+   header nav ul .number{
+       margin-right: o;
+       margin-top: 15px;
+       margin-bottom: 10px;
+       display: block;
+   }
+   header text {
+       align-items: center;
+       text-align: center;
+   }
+   
+   main .main-block img{
+       margin-right: o;
+       width: 50%;
+   }
+}
+
+@media (max-width: 400px) {
+    main .main-block .main-text .user-name{
+        flex-direction: column;
+    }
+}
